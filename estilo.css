@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    background-color: black;
+    justify-content: center;
+}
+
+nav {
+    width: 88%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    padding: 28px 17px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #1ed760;
+}
+
+#principal {
+    background-color: #2941AB;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#caixa {
+    margin-top: 60px;
+    color: #1ed760;
+    text-align: center;
+    width: 90%;
+    height: 80vh;
+    padding: 20px;
+}
+
+#caixa h1 {
+    padding: 0px 0px 24px;
+    font-size: 150px;
+}
+
+#caixa p {
+    padding: 0px 0px 40px;
+    font-size: 18px;
+}
+
+#caixa button {
+    width: 220px;
+    height: 50px;
+    border-radius: 500px;
+    border: none;
+    color: #2941AB;
+    background-color: #1ed760;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 8px;
+}
+
+#caixa button:hover {
+    background-color: #30db6f;
+    width: 230px;
+    height: 55px;
+}
+
+footer {
+    width: 100%;
+    height: 530px;
+    background-color: black;
+    padding: 80px 0px 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#links {
+    display: flex;
+    width: 90%;
+}
+
+#links div {
+    flex-basis: 100px;
+    flex-grow: 1;
+}
+#links li{
+    list-style: none;
+    padding: 15px 0px ;
+}
+
+ #links a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+#links a:hover{
+  color: #1ed760;
+}
+
+
+#links p{
+    color: #919496;
+    font-size: 12px;
+   font-weight:bold;
+   letter-spacing: 1px;
+}
